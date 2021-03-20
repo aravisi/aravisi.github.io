@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Aravisi - Free Streaming Platform</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css">
+
+</head>
+
+<body class="is-theme-core">
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Hero and nav -->
+    <div class="hero has-waves-bottom-alt is-relative is-theme-primary is-fullheight">
+        <canvas id="geo-canvas"></canvas>
+
+        <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        <img class="light-logo" src="assets/img/logos/logo/bulkit-white.svg" alt="">
+                        <img class="dark-logo switcher-logo" src="assets/img/logos/logo/bulkit-core.svg" alt="">
+                    </a>
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="">
+                        <a id="" class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                                <span class="icon-box-toggle">
+                                    <span class="rotate">
+                                        <i class="icon-line-top"></i>
+                                        <i class="icon-line-center"></i>
+                                        <i class="icon-line-bottom"></i>
+                                    </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div class="navbar-menu">
+                    <!-- Navbar Start -->
+                    <!-- <div class="navbar-start"> -->
+                        <!-- Navbar item -->
+                        <!-- <a class="navbar-item is-slide" href="kit3-features.html"> -->
+                            <!-- Features -->
+                        <!-- </a> -->
+                        <!-- Navbar item -->
+                        <!-- <a class="navbar-item is-slide" href="kit3-pricing.html"> -->
+                            <!-- Pricing -->
+                        <!-- </a> -->
+                        <!-- Navbar item -->
+                        <!-- <a class="navbar-item is-slide" href="kit3-login.html"> -->
+                            <!-- Login -->
+                        <!-- </a> -->
+                    <!-- </div> -->
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+                        <!-- Signup button -->
+                        <div class="navbar-item">
+                            <a id="#signup-btn" href="kit3-signup.html" class="button button-signup btn-outlined is-bold btn-align light-btn rounded raised">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero image -->
+        <div id="main-hero" class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-4 is-header-caption">
+                        <h1 class="title main-title landing-title">
+                            Free Streaming
+                        </h1>
+                        <h2 class="subtitle is-5 light-text">
+                            Streaming Platform
+                        </h2>
+                        <a href="#services" class="button button-cta light-btn btn-outlined is-bold rounded z-index-2">
+                            Android Mobile
+                        </a>
+                        <a href="#" class="button button-cta light-btn btn-outlined is-bold rounded z-index-2">
+                            Android TV
+                        </a>
+                    </div>
+                    <div class="column is-9 is-offset-1">
+                        <!-- Hero mockup -->
+                        <figure class="image">
+                            <img class="levitate" src="assets/img/graphics/apps/laptop-app2-core.png" data-base-url="assets/img/graphics/apps/laptop-app2" data-extension=".png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Matrix -->
+    <div class="section is-medium">
+        <div class="container has-text-centered">
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered">
+                <div class="bg-number">1</div>
+                <h2 class="section-title-landing">
+                    An all in one platform
+                </h2>
+                <h4>New features added on a regular basis</h4>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="columns is-vcentered is-multiline has-text-centered">
+                    <div class="column is-hidden-mobile"></div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded secondary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">dashboard</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Movies
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded secondary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">graphic_eq</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Series
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded secondary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">assessment</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Live TV
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Icon box -->
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+
+                <div class="columns is-vcentered has-text-centered">
+                    <div class="column is-hidden-mobile"></div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded primary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">cloud</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Cloud based
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded primary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">lock</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Improved security
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icon box -->
+                    <div class="column is-3">
+                        <div class="square-icon-box is-chat rounded primary">
+                            <div class="icon-box-wrapper">
+                                <div class="icon-box">
+                                    <i class="material-icons">account_circle</i>
+                                </div>
+                            </div>
+                            <div class="box-title">
+                                Free
+                            </div>
+                            <div class="box-text is-tablet-padded-lg body-color">
+                                Lorem ipsum dolor sit amet, usu no ancillae verterem.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Icon box -->
+                    <div class="column is-hidden-mobile"></div>
+                </div>
+                <div class="is-title-reveal pt-40 pb-40">
+                    <a href="kit3-signup.html" class="button button-cta btn-align primary-btn rounded raised">Start your
+                        Free trial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature -->
+    <div class="section is-medium section-feature-grey">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
+                <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
+                    <div class="icon-subtitle"><i class="im im-icon-Speach-Bubble2"></i></div>
+                    <h2 class="title quick-feature">
+                        <span>Built in reporting</span>
+                    </h2>
+                    <div class="title-divider"></div>
+                    <span class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit.</span>
+                </div>
+
+                <div class="column is-6 has-text-centered">
+                    <!-- Featured illustration -->
+                    <img class="featured-svg levitate" src="assets/img/graphics/widgets/mini-widget-4-core.png" data-base-url="assets/img/graphics/widgets/mini-widget-4" data-extension=".png" alt="">
+                </div>
+
+                <div class="column is-4 is-offset-1 is-hidden-mobile">
+                    <div class="icon-subtitle"><i class="im im-icon-Bar-Chart4"></i></div>
+                    <h2 class="title quick-feature">
+                        <span>Built in reporting</span>
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature -->
+    <div class="section is-medium">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+                <div class="column is-4 is-offset-2">
+                    <div class="icon-subtitle"><i class="im im-icon-Address-Book2"></i></div>
+                    <h2 class="title quick-feature">
+                        <span>Up to Date</span>
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit.</span>
+
+                </div>
+
+                <div class="column is-6 has-text-centered">
+                    <!-- Featured illustration -->
+                    <img class="featured-svg levitate" src="assets/img/graphics/widgets/widget-13-core.png" data-base-url="assets/img/graphics/widgets/widget-13" data-extension=".png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature -->
+    <div class="section is-medium section-feature-grey">
+        <div class="container">
+            <div class="columns is-vcentered">
+
+                <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
+                <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
+                    <div class="icon-subtitle"><i class="im im-icon-Receipt-2"></i></div>
+                    <h2 class="title quick-feature">
+                        <p>Free Request</p>
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit.</span>
+                </div>
+
+                <div class="column is-6 has-text-centered">
+                    <!-- Featured illustration -->
+                    <img class="featured-svg levitate" src="assets/img/graphics/widgets/widget-3-core.png" data-base-url="assets/img/graphics/widgets/widget-3" data-extension=".png" alt="">
+                </div>
+
+                <div class="column is-4 is-offset-1 is-hidden-mobile">
+                    <div class="icon-subtitle"><i class="im im-icon-Receipt-2"></i></div>
+                    <h2 class="title quick-feature">
+                        Free Request
+                    </h2>
+                    <div class="title-divider is-small"></div>
+                    <span class="section-feature-description">Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+                        inermis iudicabit.</span>
+                </div>
+            </div>
+            <div class="has-text-centered is-title-reveal pt-40 pb-40">
+                <a class="button button-cta btn-align primary-btn rounded">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clients grid -->
+    <div id="trust" class="section section-feature-grey is-medium">
+        <div class="container">
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered">
+                <div class="bg-number"><i class="material-icons">domain</i></div>
+                <h2 class="section-title-landing"> We build Trust.</h2>
+                <div class="subtitle">More than <b>900 Teams</b> use our product.</div>
+            </div>
+
+            <div class="content-wrapper">
+                <!-- Grid -->
+                <div class="grid-clients five-grid">
+                    <div class="columns is-vcentered">
+                        <div class="column"></div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/gutwork.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/phasekit.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/grubspot.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/taskbot.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/systek.svg" alt=""></a>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                    <div class="columns is-vcentered is-separator">
+                        <div class="column"></div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/infinite.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/tribe.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/powerball.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/kromo.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/covenant.svg" alt=""></a>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                    <div class="columns is-vcentered is-separator">
+                        <div class="column"></div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/bitbreaker.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/evently.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/proactive.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/transfuseio.svg" alt=""></a>
+                        </div>
+                        <!-- Client -->
+                        <div class="column">
+                            <a><img class="client" src="assets/img/logos/custom/livetalk.svg" alt=""></a>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                </div>
+                <!-- CTA -->
+                <div class="has-text-centered is-title-reveal pt-40 pb-40">
+                    <a href="#" class="button button-cta btn-align raised rounded primary-btn">Learn more about
+                        pricing</a>
+                </div>
+                <!-- /CTA -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer light -->
+    <footer class="footer footer-light">
+        <div class="container">
+            <div class="columns footer-columns is-flex-mobile">
+                <!-- Column -->
+                <div class="column is-half-mobile">
+                    <div class="footer-column">
+                        <div class="footer-header">
+                            <h3>Product</h3>
+                        </div>
+                        <ul class="link-list">
+                            <li><a href="features.html">Discover features</a></li>
+                            <li><a href="features.html">CMS integration</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Weekly sessions</a></li>
+                            <li><a href="#">Free trials and demo</a></li>
+                            <li><a href="#">What's next ?</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="column is-half-mobile">
+                    <div class="footer-column">
+                        <div class="footer-header">
+                            <h3>Company</h3>
+                        </div>
+                        <ul class="link-list">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">About security</a></li>
+                            <li><a href="#">User guide</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Terms of website use</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="column is-half-mobile">
+                    <div class="footer-column">
+                        <div class="footer-header">
+                            <h3>Learning</h3>
+                        </div>
+                        <ul class="link-list">
+                            <li><a href="contact.html">Resources</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">API documentation</a></li>
+                            <li><a href="#">Admin guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div class="column is-half-mobile">
+                    <div class="footer-column">
+                        <div class="footer-logo">
+                            <img class="switcher-logo" src="assets/img/logos/logo/bulkit-core.svg" alt="">
+                        </div>
+                        <div class="footer-header">
+                            <nav class="level is-mobile">
+                                <div class="level-left level-social">
+                                    <a href="#" class="level-item">
+                                        <span class="icon"><i class="fa fa-facebook"></i></span>
+                                    </a>
+                                    <a href="#" class="level-item">
+                                        <span class="icon"><i class="fa fa-twitter"></i></span>
+                                    </a>
+                                    <a href="#" class="level-item">
+                                        <span class="icon"><i class="fa fa-linkedin"></i></span>
+                                    </a>
+                                    <a href="#" class="level-item">
+                                        <span class="icon"><i class="fa fa-dribbble"></i></span>
+                                    </a>
+                                    <a href="#" class="level-item">
+                                        <span class="icon"><i class="fa fa-github"></i></span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="copyright">
+                            <span class="moto dark-text">Designed and coded with <i class="fa fa-heart color-red"></i> by CSS Ninja.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer light -->
+    
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    <!-- Concatenated jQuery and plugins -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Landing page js -->
+</body>
+</html>
